@@ -41,3 +41,18 @@ Mobile first styles. Use Media Queries to modify for larger screens not to adapt
 
 It's just the right thing to do. Media queries should be added where the design breaks, not at every screen breakpoint too. This will make your life easier.
 
+The Long and Short of it
+================================
+
+When at all possible use the shorthand variations of styles.
+
+So...
+
+font: normal normal 16px/1.2 sans-serif;
+
+is preferred over
+
+font-family:sans-serif;
+line-height: 1.2em;
+
+If you aren't sure of the short hand look it up on Mozilla Developer Network... or if it is really confusing use the long hand.
