@@ -34,6 +34,8 @@ EMs for Typography & As much as possible
 
 EMs only for font related sizes. EMs should be preferred for all sizes where it is possible. Keeps everything focused on the content as far as rendering is concerned.
 
+EMs in media queries are a very good idea: http://css-tricks.com/zooming-squishes/ they also allow you code around ideal line length.
+
 Mobile First. Always.
 =============================
 
